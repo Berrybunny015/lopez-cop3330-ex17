@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         //variable declarations
-        double alcoholDistributionRatio_Men = 0.73;
-        double alcoholDistributionRatio_Women = 0.66;
+        double alcoholDistributionRatio_Men = 0.73; //the alcohol distribution rate for men
+        double alcoholDistributionRatio_Women = 0.66; //the alcohol distribution rate for women
         double maxBAC = 0.08; //the maximum blood alcohol content the user can have to legally drive
 
         System.out.println("\nEnter 1 if you are male OR 2 if you are female: "); //ask the user's sex
